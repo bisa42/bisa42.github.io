@@ -10,19 +10,19 @@
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="description" content="##HTTP source 这个题主要是告诉我们做web，先看F12   ##Cookies  cookie又可以称为缓存，当你打开一个新的网页，进行登录的同时就生成了。  这里需要扯到HTTP协议的特点，最开始这个协议目标是让信息传输快速（越快越好），所以它是一种无状态协议。–&gt;无状态是指协议对于事务处理没有记忆能力，换句话说，你在用http协议网站上登录qq，关闭页面以后，再次打开必须要">
+  <meta name="description" content="HTTP source这个题主要是告诉我们做web，先看F12   ##Cookies  cookie又可以称为缓存，当你打开一个新的网页，进行登录的同时就生成了。  这里需要扯到HTTP协议的特点，最开始这个协议目标是让信息传输快速（越快越好），所以它是一种无状态协议。–&gt;无状态是指协议对于事务处理没有记忆能力，换句话说，你在用http协议网站上登录qq，关闭页面以后，再次打开必须要重新登">
 <meta property="og:type" content="article">
 <meta property="og:title" content="招新赛web题复现">
 <meta property="og:url" content="http://example.com/2021/10/03/%E6%8B%9B%E6%96%B0%E8%B5%9Bweb%E9%A2%98%E5%A4%8D%E7%8E%B0/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="##HTTP source 这个题主要是告诉我们做web，先看F12   ##Cookies  cookie又可以称为缓存，当你打开一个新的网页，进行登录的同时就生成了。  这里需要扯到HTTP协议的特点，最开始这个协议目标是让信息传输快速（越快越好），所以它是一种无状态协议。–&gt;无状态是指协议对于事务处理没有记忆能力，换句话说，你在用http协议网站上登录qq，关闭页面以后，再次打开必须要">
+<meta property="og:description" content="HTTP source这个题主要是告诉我们做web，先看F12   ##Cookies  cookie又可以称为缓存，当你打开一个新的网页，进行登录的同时就生成了。  这里需要扯到HTTP协议的特点，最开始这个协议目标是让信息传输快速（越快越好），所以它是一种无状态协议。–&gt;无状态是指协议对于事务处理没有记忆能力，换句话说，你在用http协议网站上登录qq，关闭页面以后，再次打开必须要重新登">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="c:/testblog/source_posts/招新赛web题复现/QQ图片20211003111339.png">
+<meta property="og:image" content="http://example.com/2021/10/03/%E6%8B%9B%E6%96%B0%E8%B5%9Bweb%E9%A2%98%E5%A4%8D%E7%8E%B0/%E4%B8%8D%E7%95%8F%E9%A3%8E%E9%9B%A8.jpg">
 <meta property="article:published_time" content="2021-10-03T02:04:22.000Z">
-<meta property="article:modified_time" content="2021-10-03T07:51:26.093Z">
+<meta property="article:modified_time" content="2021-10-04T07:15:16.794Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="c:/testblog/source_posts/招新赛web题复现/QQ图片20211003111339.png">
+<meta name="twitter:image" content="http://example.com/2021/10/03/%E6%8B%9B%E6%96%B0%E8%B5%9Bweb%E9%A2%98%E5%A4%8D%E7%8E%B0/%E4%B8%8D%E7%95%8F%E9%A3%8E%E9%9B%A8.jpg">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -246,7 +246,7 @@
       <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
       <i class="icon-statistics"></i>
       <span class="post-meta-item-text"> 字数统计:</span>
-      <span class="post-count">729字</span>
+      <span class="post-count">661字</span>
     </span>
   </span>
 
@@ -266,8 +266,7 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <p>##HTTP source</p>
-<p>这个题主要是告诉我们做web，先看F12  </p>
+    <h2 id="HTTP-source"><a href="#HTTP-source" class="headerlink" title="HTTP source"></a>HTTP source</h2><p>这个题主要是告诉我们做web，先看F12  </p>
 <p>##Cookies</p>
 <blockquote>
 <p>cookie又可以称为缓存，当你打开一个新的网页，进行登录的同时就生成了。</p>
@@ -276,35 +275,30 @@
 </ul>
 </blockquote>
 <p><em>cookie的作用就是让你免去重新登入这个过程，所以，我获取你的cookie时，你的用户页面就是我的、当然，cookie可以设置存在时间的长短</em>    </p>
-<p>[细讲cookie](<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/6fc9cea6daa2">深入理解Cookie - 简书 (jianshu.com)</a>)</p>
+<p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/6fc9cea6daa2">细讲cookie</a>  </p>
 <p>我们可以在Application中看到cookie，这里点开就有了flag  </p>
-<p>##GET_POST</p>
-<p><img src="C:\testblog\source_posts\招新赛web题复现\QQ图片20211003111339.png"></p>
+<h2 id="GET-POST"><a href="#GET-POST" class="headerlink" title="GET_POST"></a>GET_POST</h2><p><img src="/2021/10/03/%E6%8B%9B%E6%96%B0%E8%B5%9Bweb%E9%A2%98%E5%A4%8D%E7%8E%B0/%E4%B8%8D%E7%95%8F%E9%A3%8E%E9%9B%A8.jpg"></p>
 <p>其实主要是你怎么传参，<em>（我寻思get就是在url后面用？打头，输入键和值，post就是用hackbar或者postman）</em>    </p>
-<p>##Babyphp</p>
-<p><a href="%5B(3%E6%9D%A1%E6%B6%88%E6%81%AF">我先在这里贴个链接</a> Ctfshow Web-php特性 web92-web94_chin”的博客-CSDN博客](<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_45427131/article/details/118421734?utm_source=app&amp;app_version=4.15.0&amp;code=app_1562916241&amp;uLinkId=usr1mkqgl919blen">https://blog.csdn.net/qq_45427131/article/details/118421734?utm_source=app&amp;app_version=4.15.0&amp;code=app_1562916241&amp;uLinkId=usr1mkqgl919blen</a>))  </p>
+<h2 id="Babyphp"><a href="#Babyphp" class="headerlink" title="Babyphp"></a>Babyphp</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_45427131/article/details/118421734?utm_source=app&app_version=4.15.0&code=app_1562916241&uLinkId=usr1mkqgl919blen">我先在这里贴个链接</a>  </p>
 <ul>
 <li>其实招新赛的考点主要在于了解一下php强相等和弱相等的差别   </li>
 </ul>
 <p>==是弱比较，比较两者的值，不强调两者的类型相等，而===是强相等，与前者的不同就在于它需要比较两者的类型  </p>
 <p>在进行比较的时候，机器会自动地将两者的类型转换为同一种*(这里提一点，可以利用机器自动转换的笨蛋反应，输入无法识别的字符，使得False=False,从而得到True的结果)*    </p>
 <p>php的intval函数讲解可以获得详细的用法<em>（漏洞指明）</em>  </p>
-<p>##文件包含</p>
-<p><a href="%5B(3%E6%9D%A1%E6%B6%88%E6%81%AF">参考链接</a> CTF——Web——文件包含漏洞_bylfsj的博客-CSDN博客](<a target="_blank" rel="noopener" href="https://blog.csdn.net/bylfsj/article/details/101305199">https://blog.csdn.net/bylfsj/article/details/101305199</a>))  </p>
+<h2 id="文件包含"><a href="#文件包含" class="headerlink" title="文件包含"></a>文件包含</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/bylfsj/article/details/101305199">参考链接</a>  </p>
 <p>include()里面包含的文件要是符合php语法，能被解析，若不符合，就直接全部输出</p>
 <ul>
 <li>那么当我们用合适的绕过方式写了一句话木马，就会完全执行  </li>
 </ul>
 <p>查看目录就是一个合适的选择<em>（当然类型不同解决方法不同，所以合理推测很重要）</em>  </p>
-<p>##HTTP头</p>
-<p><strong>referer–你从哪个网址来</strong> </p>
+<h2 id="HTTP头"><a href="#HTTP头" class="headerlink" title="HTTP头"></a>HTTP头</h2><p><strong>referer–你从哪个网址来</strong> </p>
 <p>是给你要跳到的网页识别-&gt;你是从哪里跳转过来的。（http重定向就不携带referer头）</p>
 <p><strong>User–Agent–你是哪个浏览器来的小饼干</strong>  </p>
 <p>识别你用什么浏览器进行访问的  </p>
 <p><strong>X-Forwarded-For–你的ip是what</strong>  </p>
 <p><a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/HTTP%E5%A4%B4%E5%AD%97%E6%AE%B5">了解更多</a>  </p>
-<p>##文件上传  </p>
-<ul>
+<h2 id="文件上传"><a href="#文件上传" class="headerlink" title="文件上传"></a>文件上传</h2><ul>
 <li>你能通过传输一句话🐎，从而通过这条路径获得服务端的信息  </li>
 </ul>
 <p>当有格式限制的时候，你可以通过不同方式进行修改使之成功上传。<a target="_blank" rel="noopener" href="https://godpang.github.io/2018/12/04/ctf%E5%9F%BA%E6%9C%AC%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E4%B8%8E%E7%BB%95%E8%BF%87%E5%AD%A6%E4%B9%A0/">了解更多</a>  </p>
@@ -434,25 +428,6 @@
   </div>
 </article>
 
-
-<nav id="article-nav">
-  
-    <a href="/2021/10/03/%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0%E5%AE%9E%E9%AA%8C/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          图片上传实验
-        
-      </div>
-    </a>
-  
-  
-    <a href="/2021/10/03/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title"></div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
 
 
 <aside class="wrap-side-operation">
